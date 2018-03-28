@@ -10,5 +10,4 @@ fn main() {
         .compile("libvector_add.a");
     println!("cargo:rustc-link-lib=cuda");
     println!("cargo:rustc-link-lib=cudart");
-    println!("cargo:rustc-link-lib=vector_add");
 }
